@@ -12,8 +12,8 @@ client.on('message', message => {
   	}
 });
 
-bot.on('ready', () => {
-        bot.user.setGame("Test Text");
+client.on('ready', () => {
+        client.user.setGame("Test Text");
 });
 
 
