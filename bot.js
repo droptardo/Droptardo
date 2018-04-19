@@ -76,7 +76,6 @@ function formatJoke(joke) {
 
 //Listens to each instance of the message /knock and executes the code below
         if (message.content.includes('/knock')) {
-            const msg = message.content.split(' ');
 
 //Function knock() returns the formatted joke
                 message.reply(knock());
