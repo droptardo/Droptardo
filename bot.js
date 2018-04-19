@@ -11,7 +11,7 @@ client.on('message', message => {
   	}
 });
 
-// storing jokes in a variable jokes
+// BEGINNING OF DROPBOT CODE
 
 var jokes = [
     { name: 'Tilted Towers' },
@@ -71,6 +71,7 @@ function formatJoke(joke) {
 
         }
     });  
+//END OF DROPBOT CODE
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
