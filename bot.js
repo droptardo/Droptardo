@@ -85,5 +85,67 @@ function formatJoke(joke) {
     });  
 //END OF DROPBOT CODE
 
+// BEGINNING OF LAMBOT CODE
+
+var lams = [
+    { name: 'Whatever, I'm just gonna go play by myself' },
+    { name: 'I'm alpha' },
+    { name: 'Fucking sober tryhards' },
+    { name: 'HeheheHEEHA' },
+    { name: 'Shifty Shafts' },
+    { name: 'Shifty Shafts' },
+    { name: 'Pleasant Park' },
+    { name: 'Pleasant Park' },
+    { name: 'Pleasant Park' },
+    { name: 'Retail Row' },
+    { name: 'Retail Row' },
+    { name: 'Retail Row' },
+    { name: 'Haunted Hills' },
+    { name: 'Flush Factory' },
+    { name: 'Fatal Fields' },
+    { name: 'Moisty Mire' },
+    { name: 'Lonely Lodge' },
+    { name: 'Lonely Lodge' },
+    { name: 'Lonely Lodge' },
+    { name: 'Wailing Woods' },
+    { name: "M'Laika" },
+    { name: 'Anarchy Acres' },
+    { name: 'Tomato Town' },
+    { name: 'Salty Springs' },
+    { name: 'Salty Springs' },
+    { name: 'Greasy Grove' },
+    { name: 'Greasy Grove' },
+    { name: 'Junk Junction' }
+]
+
+//choosing a random joke from the array
+
+var lamknock = function() {
+    var lam = lams[Math.floor(Math.random() * lams.length)]
+    return formatLam(lam)
+}
+
+//Formatting the output to return in a new line and plug in the output variables
+function formatLam(lam) {
+    return [
+        
+        lam.name
+    ].join('\n')
+}
+
+//Turn the discordjs on to listen to a message
+    client.on('message', (message) => {
+
+//Listens to each instance of the message /knock and executes the code below
+        if (message.content.includes('!lam')) {
+            const msg = message.content.split(' ');
+
+//Function knock() returns the formatted joke
+                message.reply(lamknock());
+
+        }
+    });  
+//END OF LAMBOT CODE
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
