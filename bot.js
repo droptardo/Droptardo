@@ -13,7 +13,7 @@ client.on('message', message => {
 
 // storing jokes in a variable jokes
 
-var jokess = [
+var jokes = [
     
   "Tilted Towers",
   "Snobby Shores",
