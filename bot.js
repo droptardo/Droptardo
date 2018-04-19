@@ -34,9 +34,6 @@ var locations = [
 var randomLocation = locations[Math.floor(Math.random() * locations.length)];
 return randomLocation;
 
-    }
-});
-
 client.on('message', message => {
     if (message.content === '!drop') {
     	message.reply(randomLocation);
