@@ -31,11 +31,14 @@ var locations = [
   "Greasy Grove"
 ];
 
-var randomLocation = locations[Math.floor(Math.random() * locations.length)];
+var lock = function() {
+    var loc = locations[Math.floor(Math.random() * locations.length)]
+    return lock
+}
 
 client.on('message', message => {
     if (message.content === '!drop') {
-    	message.reply(randomLocation);
+    	message.reply(lock());
   	}
 });
 
