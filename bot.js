@@ -29,7 +29,7 @@ var locations = [
   "Tomato Town",
   "Salty Springs",
   "Greasy Grove"
-]
+];
 
 var randomLocation = locations[Math.floor(Math.random() * locations.length)];
 
