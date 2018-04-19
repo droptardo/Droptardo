@@ -11,6 +11,9 @@ client.on('message', message => {
   	}
 });
 
+bot.user.setGame('Off Yourselves')
+});
+
 // BEGINNING OF DROPBOT CODE
 
 var jokes = [
