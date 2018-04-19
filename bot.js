@@ -33,7 +33,7 @@ var locations = [
 
 var lock = function() {
     var loc = locations[Math.floor(Math.random() * locations.length)]
-    return lock
+    return var(lock)
 }
 
 client.on('message', message => {
