@@ -13,13 +13,25 @@ client.on('message', message => {
 
 // storing jokes in a variable jokes
 
-var jokes = [
-    { name: 'Dozen', answer: 'anybody want to let me in?' },
-    { name: 'Avenue', answer: 'knocked on this door before?' },
-    { name: 'Ice Cream', answer: 'if you don\'t let me in!' },
-    { name: 'Adore', answer: 'is between us. Open up!' },
-    { name: 'Lettuce', answer: 'in. Its cold out here!' },
-    { name: 'Mikey', answer: 'doesnt fit through this keyhole' }
+var jokess = [
+    
+  "Tilted Towers",
+  "Snobby Shores",
+  "Shifty Shafts",
+  "Pleasant Park",
+  "Retail Row",
+  "Junk Junction",
+  "Haunted Hills",
+  "Flush Factory",
+  "Fatal Fields",
+  "Moisty Mire",
+  "Lonely Lodge",
+  "Wailing Woods",
+  "M'Laika",
+  "Anarchy Acres",
+  "Tomato Town",
+  "Salty Springs",
+  "Greasy Grove"
 ]
 
 //choosing a random joke from the array
@@ -32,11 +44,8 @@ var knock = function() {
 //Formatting the output to return in a new line and plug in the output variables
 function formatJoke(joke) {
     return [
-        'Knock, knock.',
-        'Who’s there?',
-        joke.name + '.',
-        joke.name + ' who?',
-        joke.name + ' ' + joke.answer
+        
+        jokes
     ].join('\n')
 }
 
