@@ -14,24 +14,12 @@ client.on('message', message => {
 // storing jokes in a variable jokes
 
 var jokes = [
-    
-  "Tilted Towers",
-  "Snobby Shores",
-  "Shifty Shafts",
-  "Pleasant Park",
-  "Retail Row",
-  "Junk Junction",
-  "Haunted Hills",
-  "Flush Factory",
-  "Fatal Fields",
-  "Moisty Mire",
-  "Lonely Lodge",
-  "Wailing Woods",
-  "M'Laika",
-  "Anarchy Acres",
-  "Tomato Town",
-  "Salty Springs",
-  "Greasy Grove"
+    { name: 'Tilted Towers' },
+    { name: 'Snobby Shores' },
+    { name: 'Shifty Shafts' },
+    { name: 'Pleasant Park' },
+    { name: 'Retail Row' },
+    { name: 'Junk Junction' }
 ]
 
 //choosing a random joke from the array
@@ -45,7 +33,7 @@ var knock = function() {
 function formatJoke(joke) {
     return [
         
-        jokes
+        joke.name
     ].join('\n')
 }
 
@@ -53,7 +41,8 @@ function formatJoke(joke) {
     client.on('message', (message) => {
 
 //Listens to each instance of the message /knock and executes the code below
-        if (message.content.includes('/knock')) {
+        if (message.content.includes('!drop')) {
+            const msg = message.content.split(' ');
 
 //Function knock() returns the formatted joke
                 message.reply(knock());
