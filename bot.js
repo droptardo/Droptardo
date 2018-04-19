@@ -133,14 +133,10 @@ function formatLam(lam) {
     ].join('\n')
 }
 
-//Turn the discordjs on to listen to a message
-    client.on('message', (message) => {
-
 //Listens to each instance of the message /knock and executes the code below
         if (message.content.includes('!lam')) {
-            const msg = message.content.split(' ');
 
-//Function knock() returns the formatted joke
+//Function lamknock() returns the formatted joke
                 message.reply(lamknock());
 
         }
