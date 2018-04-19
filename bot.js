@@ -16,7 +16,19 @@ var locations = [
   "Snobby Shores",
   "Shifty Shafts",
   "Pleasant Park",
-  "Retail Row"
+  "Retail Row",
+  "Junk Junction",
+  "Haunted Hills",
+  "Flush Factory",
+  "Fatal Fields",
+  "Moisty Mire",
+  "Lonely Lodge",
+  "Wailing Woods",
+  "M'Laika",
+  "Anarchy Acres",
+  "Tomato Town",
+  "Salty Springs",
+  "Greasy Grove"
 ]
 
 var randomLocation = locations[Math.floor(Math.random() * locations.length)];
