@@ -89,7 +89,7 @@ function formatJoke(joke) {
 
 var lams = [
     { name: "Whatever, I'm just gonna go play by myself" },
-    { name: 'I'm alpha' },
+    { name: "I'm alpha" },
     { name: 'Fucking sober tryhards' },
     { name: 'HeheheHEEHA' },
     { name: 'Shifty Shafts' },
