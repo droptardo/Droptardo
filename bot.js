@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '!hello') {
+    	message.reply('Off yourself');
   	}
 });
 
@@ -17,8 +17,24 @@ var jokes = [
     { name: 'Tilted Towers' },
     { name: 'Snobby Shores' },
     { name: 'Shifty Shafts' },
+    { name: 'Shifty Shafts' },
+    { name: 'Pleasant Park' },
     { name: 'Pleasant Park' },
     { name: 'Retail Row' },
+    { name: 'Retail Row' },
+    { name: 'Haunted Hills' },
+    { name: 'Flush Factory' },
+    { name: 'Fatal Fields' },
+    { name: 'Moisty Mire' },
+    { name: 'Lonely Lodge' },
+    { name: 'Lonely Lodge' },
+    { name: 'Wailing Woods' },
+    { name: "M'Laika" },
+    { name: 'Anarchy Acres' },
+    { name: 'Tomato Town' },
+    { name: 'Salty Springs' },
+    { name: 'Greasy Grove' },
+    { name: 'Greasy Grove' },
     { name: 'Junk Junction' }
 ]
 
