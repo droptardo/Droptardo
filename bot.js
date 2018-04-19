@@ -11,8 +11,11 @@ client.on('message', message => {
   	}
 });
 
-bot.user.setGame('Off Yourselves')
+const bot = new Discord.Client();
+bot.on('ready', () => {
+        bot.user.setGame('Test Text');
 });
+
 
 // BEGINNING OF DROPBOT CODE
 
