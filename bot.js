@@ -4,16 +4,13 @@ const bot = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
+    client.user.setGame("Test Text");
 });
 
 client.on('message', message => {
     if (message.content === '!hello') {
     	message.reply('Off yourself');
   	}
-});
-
-client.on('ready', () => {
-        client.user.setGame("Test Text");
 });
 
 
