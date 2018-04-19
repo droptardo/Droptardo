@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setPresence({ game: { name: 'Off Yourselves', type: 0 }
+    client.user.setPresence({ game: { name: 'Off Yourselves', type: 0 };
 });
 
 client.on('message', message => {
