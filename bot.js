@@ -8,9 +8,9 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-bot.on('ready', () => {
-    bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
-    bot.user.setPresence({
+client.on('ready', () => {
+    client.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
+    client.user.setPresence({
         game: {
             name: 'Type !help',
             type: 0
