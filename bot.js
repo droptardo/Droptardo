@@ -88,7 +88,7 @@ function formatJoke(joke) {
 // BEGINNING OF LAMBOT CODE
 
 var lams = [
-    { name: 'Whatever, I'm just gonna go play by myself' },
+    { name: "Whatever, I'm just gonna go play by myself" },
     { name: 'I'm alpha' },
     { name: 'Fucking sober tryhards' },
     { name: 'HeheheHEEHA' },
