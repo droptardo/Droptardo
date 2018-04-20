@@ -147,13 +147,13 @@ var balls = [
     { name: "**IDK bitch, do I look a fortune teller?**" },
     { name: "**I don't think that's a good idea**" },
     { name: "**HELLLLL YEAAAAAH**" },
-	{ name: "**FUCK YES BITCH**" },
     { name: "**Don't fucking do it**" },
     { name: "**Do whatever you want, fuckface**" },
     { name: "**LET'S DO IT!!**" },
     { name: "**HELLLLL YEAAAAAH**" },
     { name: "**Off yourself**" },
     { name: "**Bad idea, retard**" },
+    { name: "**FUCK YES BITCH**" },
     
     
 ]
