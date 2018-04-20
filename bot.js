@@ -115,10 +115,10 @@ var lamknock = function() {
 }
 
 //Formatting the output to return in a new line and plug in the output variables
-function formatLam(***lam***) {
+function formatLam(lam) {
     return [
         
-        lam.name
+        ***lam.name***
     ].join('\n')
 }
 
