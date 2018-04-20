@@ -181,7 +181,7 @@ function formatBall(ball) {
             const msg = message.content.split(' ');
 
 //Function knock() returns the formatted joke
-                message.channel.send(ballknock());
+                message.reply(ballknock());
 
         }
     });  
