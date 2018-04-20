@@ -26,7 +26,7 @@ client.on('message', message => {
 // BEGINNING OF DROPBOT CODE
 
 var jokes = [
-    { name: 'Tilted Towers' },
+    { name: 'Tilted Towers'' },
     { name: 'Tilted Towers' },
     { name: 'Snobby Shores' },
     { name: 'Shifty Shafts' },
