@@ -90,19 +90,7 @@ function formatJoke(joke) {
 var lams = [
     { name: "***Whatever, I'm just gonna go play by myself***" },
     { name: "***I'm ALPHA***" },
-    { name: "***Fucking sober tryhards***" },
-    { name: "***HeheheHEEHA***" },
-    { name: "***You're just a fake gay***" },
-    { name: "***Hey wanna get LIT tonight??***" },
-    { name: "***Fuck you faggot!***" },
-    { name: "***I'm so fucking LIT rn***" },
-    { name: "***OMG, I'm gonna puke***" },
-    { name: "***HEHE, did you hear that? I farted.***" },
-    { name: "***Fuck you!!***" },
-    { name: "***I'm not having any of ur shit today***" },
-    { name: "***I'm asexual***" },
-    { name: "***You fucking BETA***" },
-    { name: "***Kill yourself, retard***" },
+   
     
     
 ]
