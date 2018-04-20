@@ -92,30 +92,14 @@ var lams = [
     { name: "I'm alpha" },
     { name: 'Fucking sober tryhards' },
     { name: 'HeheheHEEHA' },
-    { name: 'Shifty Shafts' },
-    { name: 'Shifty Shafts' },
-    { name: 'Pleasant Park' },
-    { name: 'Pleasant Park' },
-    { name: 'Pleasant Park' },
-    { name: 'Retail Row' },
-    { name: 'Retail Row' },
-    { name: 'Retail Row' },
-    { name: 'Haunted Hills' },
-    { name: 'Flush Factory' },
-    { name: 'Fatal Fields' },
-    { name: 'Moisty Mire' },
-    { name: 'Lonely Lodge' },
-    { name: 'Lonely Lodge' },
-    { name: 'Lonely Lodge' },
-    { name: 'Wailing Woods' },
-    { name: "M'Laika" },
-    { name: 'Anarchy Acres' },
-    { name: 'Tomato Town' },
-    { name: 'Salty Springs' },
-    { name: 'Salty Springs' },
-    { name: 'Greasy Grove' },
-    { name: 'Greasy Grove' },
-    { name: 'Junk Junction' }
+    { name: "You're just a fake gay" },
+    { name: "Hey wanna get LIT tonight??" },
+    { name: "Fuck you faggot!" },
+    { name: "I'm so fucking LIT rn" },
+    { name: "OMG, I'm gonna puke" },
+    { name: "HEHE, did you hear that? I farted." },
+    { name: "Fuck yourself" },
+    
 ]
 
 //choosing a random joke from the array
@@ -141,7 +125,7 @@ function formatLam(lam) {
             const msg = message.content.split(' ');
 
 //Function knock() returns the formatted joke
-                message.reply(lamknock());
+                message(lamknock());
 
         }
     });  
