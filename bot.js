@@ -130,7 +130,7 @@ function formatLam(lam) {
             const msg = message.content.split(' ');
 
 //Function knock() returns the formatted joke
-                message.channel.send(lamknock());
+                message.channel.send(***lamknock()***);
 
         }
     });  
