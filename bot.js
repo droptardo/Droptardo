@@ -115,7 +115,7 @@ var lamknock = function() {
 }
 
 //Formatting the output to return in a new line and plug in the output variables
-function formatLam(lam) {
+function formatLam(***lam***) {
     return [
         
         lam.name
@@ -130,7 +130,7 @@ function formatLam(lam) {
             const msg = message.content.split(' ');
 
 //Function knock() returns the formatted joke
-                message.channel.send(***lamknock()***);
+                message.channel.send(lamknock());
 
         }
     });  
