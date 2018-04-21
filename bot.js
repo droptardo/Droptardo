@@ -22,6 +22,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '!off') {
+    	message.channel.send("@Lutimer#2804 **OFF YOURSELF**");
+  	}
+});
+
 
 // BEGINNING OF DROPBOT CODE
 
